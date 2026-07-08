@@ -17,6 +17,7 @@ These labs are the **proof layer** of this site. Each one deploys a scaled-down 
 | [Lab 6 — Data Analytics Pipeline](lab-06-data-pipeline) | Big Data | 90 min | ~$2 |
 | [Lab 7 — Hub-Spoke Network](lab-07-hub-spoke) | Network foundation | 75 min | ~$2 |
 | [Lab 8 — Multi-Region HA](lab-08-multi-region-ha) | Global routing | 90 min | ~$2 |
+| [Lab 9 — CI/CD with GitHub Actions OIDC](lab-09-cicd-pipeline) | Delivery pipeline | 60 min | < $1 |
 
 ## Ground rules
 

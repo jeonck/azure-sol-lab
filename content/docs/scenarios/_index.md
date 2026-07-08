@@ -18,6 +18,7 @@ Architecture styles become useful when applied to a **real business scenario**. 
 | [Hybrid Networking with Hub-Spoke](hybrid-networking) | N-tier (network foundation) | Hub-spoke, VPN/ExpressRoute, Azure Firewall |
 | [Multi-Region High Availability](multi-region-ha) | N-tier + global routing | Front Door, active-passive vs active-active |
 | [AI-Powered RAG Application](ai-rag) | Serverless + Event-Driven | Azure OpenAI, AI Search, embedding pipelines |
+| [Enterprise CI/CD on Azure](cicd) | Delivery pipeline (cross-cutting) | GitHub Actions, OIDC federation, Bicep, slot swap |
 
 {{< callout type="info" >}}
 Every playbook links to a hands-on lab where you deploy a scaled-down version of the architecture yourself.
