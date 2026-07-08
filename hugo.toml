@@ -1,0 +1,77 @@
+baseURL = "https://jeonck.github.io/azure-sol-lab/"
+title = "Azure Solution Lab"
+theme = "hextra"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableGitInfo = false
+hasCJKLanguage = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["html"]
+  page = ["html"]
+  section = ["html", "rss"]
+
+[params]
+  description = "Hands-on lab driven Azure architecture styles and real-world scenarios for Azure engineers"
+  displayUpdatedDate = true
+  dateFormat = "January 2, 2006"
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    width = "full"
+
+  [params.page]
+    width = "normal"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    displayPoweredBy = false
+    width = "normal"
+
+  [params.search]
+    enable = true
+    type = "flexsearch"
+    [params.search.flexsearch]
+      index = "content"
+      tokenize = "forward"
+
+  [params.toc]
+    displayTags = true
+
+  [params.highlight.copy]
+    enable = true
+    display = "hover"
+
+[[menu.main]]
+  name = "Search"
+  weight = 0
+  [menu.main.params]
+    type = "search"
+
+[[menu.main]]
+  name = "Docs"
+  pageRef = "/docs"
+  weight = 1
+
+[[menu.main]]
+  name = "Labs"
+  pageRef = "/docs/labs"
+  weight = 2
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/jeonck/azure-sol-lab"
+  weight = 99
+  [menu.main.params]
+    icon = "github"
